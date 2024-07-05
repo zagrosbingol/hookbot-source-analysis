@@ -78,7 +78,7 @@ CMD ["php-fpm"]
 
 COPY backend .
 
-FROM golang:1.12-alpine AS golang
+FROM golang:1.21.11-alpine AS golang
 
 # RUN apk update && apk upgrade && apk add --no-cache bash git openssh
 
